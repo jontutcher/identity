@@ -64,10 +64,10 @@ html {
 body {
   height: 100%;
   background-color: #ffffff;
-  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(155, 166, 182, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(155, 166, 182, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(155, 166, 182, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(155, 166, 182, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
   background-repeat: repeat,			no-repeat,			no-repeat;
   background-size: 100px 100px,	cover,				cover;
   background-position: top left,		center center,		bottom center;
@@ -83,10 +83,10 @@ body {
     opacity: 0;
     z-index: 1;
     background-color: #ffffff;
-    background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-    background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-    background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+    background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(155, 166, 182, 0.5) 5%, rgba(0, 228, 255, 0.35));
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(155, 166, 182, 0.5) 5%, rgba(0, 228, 255, 0.35));
+    background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(155, 166, 182, 0.5) 5%, rgba(0, 228, 255, 0.35));
+    background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(155, 166, 182, 0.5) 5%, rgba(0, 228, 255, 0.35));
     background-repeat: repeat,			no-repeat;
     background-size: 100px 100px,	cover;
     background-position: top left,		center center;
@@ -99,7 +99,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #414f57;
+  color: #052049;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 14pt;
   font-weight: 300;
@@ -125,10 +125,10 @@ a {
     -ms-transition: color 0.2s ease, text-shadow 0.2s ease;
     transition: color 0.2s ease, text-shadow 0.2s ease; }
   a:hover {
-    color: #ff7496; }
+    color: #052049; }
 
 strong, b {
-  color: #313f47; }
+  color: #178CCB; }
 
 em, i {
   font-style: italic; }
@@ -137,9 +137,8 @@ p {
   margin: 0 0 1.5em 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #313f47;
+  color: #178CCB;
   line-height: 1.5;
   margin: 0 0 0.75em 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -147,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none; }
 
 h1 {
-  font-size: 1.85em;
+  font-size: 2.67em;
   letter-spacing: 0.22em;
   margin: 0 0 0.525em 0; }
 
@@ -181,7 +180,7 @@ sup {
 
 hr {
   border: 0;
-  border-bottom: solid 1px #c8cccf;
+  border-bottom: solid 1px #cccccc;
   margin: 3em 0; }
 
 /* Form */
@@ -193,7 +192,7 @@ form {
       margin-bottom: 0; }
 
 label {
-  color: #313f47;
+  color: #178CCB;
   display: block;
   font-size: 0.9em;
   margin: 0 0 0.75em 0; }
@@ -209,7 +208,7 @@ textarea {
   -ms-appearance: none;
   appearance: none;
   border-radius: 4px;
-  border: solid 1px #c8cccf;
+  border: solid 1px #cccccc;
   color: inherit;
   display: block;
   outline: 0;
@@ -229,7 +228,7 @@ textarea {
   input[type="tel"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #ff7496; }
+    border-color: #052049; }
 
 .select-wrapper {
   text-decoration: none;
@@ -244,7 +243,7 @@ textarea {
     font-weight: normal;
     text-transform: none !important; }
   .select-wrapper:before {
-    color: #c8cccf;
+    color: #cccccc;
     display: block;
     height: 2.75em;
     line-height: 2.75em;
@@ -281,7 +280,7 @@ input[type="radio"] {
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     text-decoration: none;
-    color: #414f57;
+    color: #052049;
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
@@ -300,7 +299,7 @@ input[type="radio"] {
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
       border-radius: 4px;
-      border: solid 1px #c8cccf;
+      border: solid 1px #cccccc;
       content: '';
       display: inline-block;
       height: 1.65em;
@@ -312,11 +311,11 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    color: #ff7496;
+    color: #052049;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #ff7496; }
+    border-color: #052049; }
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -325,23 +324,23 @@ input[type="radio"] + label:before {
   border-radius: 100%; }
 
 ::-webkit-input-placeholder {
-  color: #616f77 !important;
+  color: #A2D1EA !important;
   opacity: 1.0; }
 
 :-moz-placeholder {
-  color: #616f77 !important;
+  color: #A2D1EA !important;
   opacity: 1.0; }
 
 ::-moz-placeholder {
-  color: #616f77 !important;
+  color: #A2D1EA !important;
   opacity: 1.0; }
 
 :-ms-input-placeholder {
-  color: #616f77 !important;
+  color: #A2D1EA !important;
   opacity: 1.0; }
 
 .formerize-placeholder {
-  color: #616f77 !important;
+  color: #A2D1EA !important;
   opacity: 1.0; }
 
 /* Icon */
@@ -377,7 +376,7 @@ ul {
     list-style: none;
     padding-left: 0; }
     ul.alt li {
-      border-top: solid 1px #c8cccf;
+      border-top: solid 1px #cccccc;
       padding: 0.5em 0; }
       ul.alt li:first-child {
         border-top: 0;
@@ -397,7 +396,7 @@ ul {
         width: 3.75em;
         height: 3.75em;
         border-radius: 100%;
-        border: solid 1px #c8cccf;
+        border: solid 1px #cccccc;
         line-height: 3.75em;
         overflow: hidden;
         text-align: center;
@@ -412,9 +411,9 @@ ul {
           text-transform: none !important; }
         ul.icons li a:before {
           color: #ffffff;
-          text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf; }
+          text-shadow: 1.25px 0px 0px #cccccc, -1.25px 0px 0px #cccccc, 0px 1.25px 0px #cccccc, 0px -1.25px 0px #cccccc; }
         ul.icons li a:hover:before {
-          text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496; }
+          text-shadow: 1.25px 0px 0px #052049, -1.25px 0px 0px #052049, 0px 1.25px 0px #052049, 0px -1.25px 0px #052049; }
         ul.icons li a:before {
           position: absolute;
           top: 0;
@@ -426,7 +425,7 @@ ul {
           text-align: center;
           text-indent: 0; }
         ul.icons li a:hover {
-          border-color: #ff7496; }
+          border-color: #052049; }
     @media screen and (max-width: 480px) {
       ul.icons li a:before {
         font-size: 1.5rem; } }
@@ -469,8 +468,8 @@ button,
   padding: 0 1.5em;
   background-color: transparent;
   border-radius: 4px;
-  border: solid 1px #c8cccf;
-  color: #414f57 !important;
+  border: solid 1px #cccccc;
+  color: #052049 !important;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -480,8 +479,8 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    border-color: #ff7496;
-    color: #ff7496 !important; }
+    border-color: #052049;
+    color: #052049 !important; }
   input[type="submit"].icon,
   input[type="reset"].icon,
   input[type="button"].icon,
@@ -570,7 +569,7 @@ button,
       width: calc(100% + 6em);
       height: 1px;
       z-index: -1;
-      background: #c8cccf; }
+      background: #cccccc; }
   @media screen and (max-width: 480px) {
     #main {
       min-width: 0;
